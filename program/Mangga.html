@@ -16,7 +16,19 @@ body {
 }
 
 /* Header dan judul Blog */
-.header {
+header {
+        background-color: #88AB8E  ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+      }
+.judul {
   padding: 30px;
   font; color: white;
   font-family: cursive;
@@ -75,8 +87,22 @@ body {
 </style>
 </head>
 <body>
+  <header>
+    <!-- header logo -->
+    <section>
+      <img style="height: 2rem;" src="images/logo.png" alt="logo I'm Tree" />
+    </section>
+    <!-- header menu -->
+    <nav>
+      <section>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">About Us</a>
+      </section>
+    </nav>
+  </header>
 
-<div class="header">
+<div class="judul">
   <h2>POHON MANGGA</h2>
 </div>
 
