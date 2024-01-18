@@ -7,12 +7,13 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap");
 /* menambah background color dan padding */
 body {
   font-family: Arial;
   padding: 20px;
   background: #88AB8E;
-  /* font; color:#EEF0E5; */
+
 }
 
 /* Header dan judul Blog */
@@ -27,27 +28,31 @@ header {
         left: 0;
         right: 0;
         z-index: 1;
-      }
-
-    }
-      .nav_menu {
-        margin-left: 10px;
-        color: white;
-        font-size: 18px;
-        font-family: cursive;
+        
         }
 
+  header a{
+    text-decoration: none;
+    font-family: Poppins;
+    color: white
+  }
+  
+      .nav_menu {
+        margin-left: 10px;
+        font-size: 18px;
+        }
+   
 
 .judul {
   padding: 30px;
-  font; color: white;
+  color: white;
   font-family: cursive;
   font-size: 40px;
   -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color : rgb(104, 102, 102);
+    -webkit-text-stroke-color : #686666;
   text-align: center;
   background-image: url(assets/mangga2.jpg);
-}
+  }
 
 /* buat kolom kanan kiri */
 /* kiri */
@@ -79,7 +84,6 @@ header {
    margin-top: 20px;
 }
 
-
 .row:after {
   content: "";
   display: table;
@@ -104,7 +108,7 @@ header {
     </section>
     <!-- header menu -->
     <nav>
-        <section class="area_menu">
+        <section>
           <a href="index.html#Home" class="nav_menu">Home</a>
           <a href="index.html#Primary" class="nav_menu">Primary</a>
           <a href="index.html#QrCode" class="nav_menu">QR Code</a>
@@ -187,7 +191,7 @@ header {
   <div class="rightcolumn">
     <div class="card">
       <h3>Popular Post</h3>
-      <div class="img">Sawo</div><br>
+      <div class="img" >Sawo</div><br>
       <div class="img">Kersen</div><br>
       <div class="img">Mangga</div>
     </div>
