@@ -37,11 +37,14 @@ header {
     color: white
   }
   
-      .nav_menu {
-        margin-left: 10px;
-        font-size: 18px;
+  .nav_menu {
+    margin-left: 10px;
+    font-size: 18px;
         }
-   
+  .nav_menu:hover{
+    color: black;
+    font-size: larger;
+  }
 
 .judul {
   padding: 30px;
@@ -75,6 +78,27 @@ header {
 .img {
   width: 100%;
   padding: 20px;
+}
+
+.link{
+  background-color: #AFC8AD;
+   padding: 20px;
+   margin-top: 20px;
+  }
+.link div{
+  margin-bottom: 20px;
+}
+
+.link a{
+  padding : 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.link a:hover {
+  text-decoration: underline;
+  font-size:larger;
 }
 
 /* efek kartu pada artikel */
@@ -159,15 +183,18 @@ header {
       </div>  
   </div>
   <div class="rightcolumn">
-    <div class="card">
+    <div class="link">
       <h3>Popular Post</h3>
-      <div class="img" >Sawo</div><br>
-      <div class="img">Kersen</div><br>
-      <div class="img">Mangga</div>
+      <div><a href="Sawo.html">Sawo</a></div>
+      <div><a href="Kersen.html">Kersen</a></div>
+      <div><a href="Mangga.html">Mangga</a></div>
+         
     </div>
     <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
+      h3>About Us</h3>
+        <p>Selamat datang di I'm Tree!</p>
+        <p>Kami adalah sebuah situs web yang didedikasikan untuk menjelaskan tentang pohon dan pentingnya menjaga kelestariannya. Kami percaya bahwa pohon adalah salah satu aset terpenting di planet ini, dan kami ingin memastikan bahwa orang-orang memiliki pengetahuan yang cukup tentang pohon dan manfaatnya.</p>
+
     </div>
   </div>
 </div>
