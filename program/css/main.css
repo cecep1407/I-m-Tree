@@ -260,6 +260,7 @@ article img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 }
 .area_qr .area_input_qr{
   display: flex;
@@ -294,7 +295,29 @@ article img {
   border-radius: 20px ;
   background-color:#88AB8E;
 }
-
+.area_about_us{
+  height: 100vh;
+  margin: 0;
+  background-color: #333;
+}
+.area_about_us>h2{
+  text-align: center;
+  padding-top: 75px;
+  margin-bottom: 150px; 
+}
+.area_kartu_nama{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.area_kartu_nama .kartu_nama{
+  width: 200px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(254, 253, 253, 0.731);
+  border-radius: 8px;
+  margin-right: 20px;
+}
 
 @media (min-width: 1440px) {
   header .big-tittle span {
