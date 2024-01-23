@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&display=swap");
+/* menambah background color dan padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #88AB8E;
+
+}
+
+/* Header dan judul Blog */
+header {
+        background-color: #88AB8E  ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        
+        }
+
+  header a{
+    text-decoration: none;
+    font-family: Poppins;
+    color: white
+  }
+  
+  .nav_menu {
+     margin-left: 10px;
+     font-size: 18px;
+    }
+  .nav_menu:hover{
+    color: black;
+    font-size: larger;
+  }
+   
+
+.judul {
+  padding: 30px;
+  color: white;
+  font-family: cursive;
+  font-size: 40px;
+  -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color : #686666;
+  text-align: center;
+  background-image: url(assets/sawo1.jpg);
+  }
+
+/* buat kolom kanan kiri */
+/* kiri */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* kanan*/
+.rightcolumn {
+ float: left;
+ position: sticky;
+ top: 0;
+ right: 0;
+ width: 25%;
+ padding-left: 20px;
+}
+
+/* img */
+.img {
+  width: 100%;
+  padding: 20px;
+}
+
+.link{
+  background-color: #AFC8AD;
+   padding: 20px;
+   margin-top: 20px;
+  }
+.link div{
+  margin-bottom: 20px;
+}
+
+.link a{
+  padding : 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.link a:hover {
+  text-decoration: underline;
+  font-size:larger;
+}
+
+
+
+/* efek kartu pada artikel */
+.card {
+   background-color: #AFC8AD;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout max 768px */
+@media screen and (max-width: 768px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <!-- header logo -->
+    <section>
+      <img style="height: 2rem;" src="images/logo.png" alt="logo I'm Tree" />
+    </section>
+    <!-- header menu -->
+    <nav>
+        <section>
+          <a href="index.html#Home" class="nav_menu">Home</a>
+          <a href="index.html#Primary" class="nav_menu">Primary</a>
+          <a href="index.html#QrCode" class="nav_menu">QR Code</a>
+        </section>
+      </nav>
+  </header>
+
+<div class="judul">
+  <h2>POHON SAWO</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Sawo / Manilkara zapota</h2>
+      <img src="assets/sawo2.jpg" alt="Sawo 2" class="img">
+      <p>Sawo atau tanaman buah dengan nama latin Manikara zapota .L merupakan tanaman tahunan yang bisa berbuah tanpa mengenal musim. Tanaman sawo ini berasal dari Amerika Tengah, tepatnya Meksiko dan India Barat. Namun saat ini, tanaman sawo sudah banyak tersebar luas di daerah tropik, termasuk Indonesia.</p>
+      <p>Sawo ialah salah satu tanaman yang cocok dibudidayakan di daerah tropis terutama di daerah dataran rendah. Maka tidak heran jika sawo banyak sekali dibudidayakan dan menjadi salah satu mata pencaharian oleh masyarakat Indonesia.</p>
+    </div>
+          <div class="card">
+            <h2>MORFOLOGI TANAMAN SAWO</h2>
+        </div>
+      <div class="card">
+        <h3>Akar</h3>
+        <p>Tanaman sawo mempunyai akar tunggang dan akar samping yang cukup kuat. Akar tunggang tanaman sawo memiliki bentuk mengerucut yang tumbuh tegak lurus ke bawah. Sedangkan akar sampingnya bertugas untuk menyerap nutrisi dan air dari dalam tanah.<br>
+        </p>
+        </div>
+      <div class="card">
+        <h3>Batang
+        </h3>
+        <p>Tanaman sawo mempunyai batang yang berbentuk bulat bertekstur keras, dan bersifat kuat. Selain itu terdapat kulit batang sawo yang memiliki permukaan kasar. Batang tanaman sawo berwarna coklat dengan tajuk yang cukup rimbun. Tanaman sawo menghasilkan getah yang cukup banyak pada bagian batang, sehingga sering dijadikan permen karet. Batang tanaman sawo ini arah pertumbuhannya lurus ke atas.</p>
+        </div>  
+        <div class="card">
+          <h3>Daun</h3>
+          <p>Tanaman sawo memiliki daun dengan ukuran yang cukup lebar dan bergetah. Daun sawo termasuk daun tunggal dan terletak pada bagian ujung ranting. Daun sawo memiliki bentuk lonjong dengan ujung yang meruncing. Daun tanaman sawo umumnya berwarna hijau dan terlihat mengkilap.</p>
+        </div>
+        <div class="card">
+          <h3>Bunga</h3>
+          <p>Tanaman sawo mempunyai bunga tunggal yang terdapat pada ketiak daun berdekatan dengan ujung ranting. Bunga tersebut memiliki bulu kecoklatan dengan diameter hingga 1,5 cm dan menggantung serta memiliki kelopak bunga di bagian dalamnya. Bunga tanaman sawo berwarna putih dengan bentuk seperti lonceng.</p>
+        </div>
+        <div class="card">
+          <h3>Buah</h3>
+          <p>Tanaman sawo memiliki buah dengan bentuk lonjong seperti telur dan memiliki warna coklat serta berkulit kasar. Umumnya buah sawo memiliki diameter + 4cm, namun ukuran dan berat juga dipengaruhi oleh jenis dan pertumbuhan tanaman. Buah sawo memiliki rasa yang manis dan menyegarkan dengan daging buah berwarna coklat muda.</p>
+        </div>
+        <div class="card">
+          <h3>Biji</h3>
+          <p>Tanaman sawo memiliki biji yang berbentuk lonjong agak pipih dengan warna hitam mengkilap. Biji sawo bertekstur keras, dan umumnya dalam satu buah sawo terdapat sekitar lima biji.</p>
+        </div>
+        <div class="card">
+          <h2>KANDUNGAN GIZI BUAH SAWO</h2>
+          <img src="assets/sawo3.png" alt="Sawo 3" class="img">
+          <p>Buah sawo merupakan salah satu buah yang mengandung mengandung banyak nutrisi dan vitamin yang baik untuk kesehatan. Selain itu, buah sawo memiliki kandungan air yang banyak sehingga termasuk buah yang segar.</p>
+          <h3>Kandungan Gizi Buah Sawo (per 100 gram)</h3>
+          <p>Energi : 92 kkal<br>
+            Protein : 0,5 gr<br>            
+            Lemak : 1,1 gr <br>           
+            Karbohidrat  22,4 gr<br>         
+            Kalsium : 25 mg<br>            
+            Fosfor : 12 mg<br>            
+            Zat besi : 1 mg<br>            
+            Vitamin A : 60 IU<br>            
+            Vitamin B1 : 0,01 mg<br>            
+            Vitamin C : 21 mg</p>
+        </div>
+        <div class="card">
+          <h2>MANFAAT BUAH SAWO UNTUK KESEHATAN</h2>
+          <p>Karena mengandung banyak vitamin seperti vitamin A, B, C, protein nabati, zat besi, kalori, karbohidrat dan flavonoid, buah sawo ini memiliki banyak manfaat untuk kesehatan. Berikut adalah manfaat buah sawo untuk kesehatan, diantaranya ialah:</p>
+          <h3> Membantu pembentukan sel darah merah</h3>
+          <p>Kandungan zat besi yang terdapat pada buah sawo berguna untuk membantu tubuh dalam memproduksi sel darah merah. Mengkonsumsi makanan dengan kandungan zat besi tinggi seperti buah sawo disarankan untuk penderita anemia atau ibu hamil agar terhindar dari anemia yang berbahaya.</p>
+          <h3>Menjaga kesehatan tulang</h3>
+          <p>Buah sawo mengandung kalsium dan fosfor yang baik untuk kesehatan tulang. Mengkonsumsi buah dengan kandungan kalsium tinggi dapat mencegah penyakit tulang.</p>
+          <h3>Mengatasi radang mulut</h3>
+          <p>Buah sawo juga dapat mengatasi radang mulut dengan cara menggunakan air rebusan buah sawo yang sudah dicincang dan ditambah dengan air bersih secukupnya.</p>
+          <h3>Mengatasi diare</h3>
+          <p>Buah sawo dapat digunakan sebagai obat diare yaitu dengan menggunakan 15 tetes getah sawo yang masih muda. Caranya, seduh sawo dengan setengah gelas air panas. Selain itu, sawo dapat digunakan sebagai obat diare dengan cara mencuci sawo hingga bersih kemudian parut dan peras. Konsumsi air perasan sawo yang sudah dicampurkan dengan air matang.</p>
+          <h3>Mengatasi sariawan</h3>
+          <p>Buah sawo memiliki kandungan vitamin yang tinggi yang dapat mengatasi radikal bebas dan mencegah penyakit salah satunya sariawan. Konsumsi buah sawo secara rutin untuk menjaga kesehatan mulut dan mencegah teradinya sariawan.</p>
+        </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="link">
+      <h3>Popular Post</h3>
+      <div><a href="Sawo.html">Sawo</a></div>
+      <div><a href="Kersen.html">Kersen</a></div>
+      <div><a href="Mangga.html">Mangga</a></div>
+      
+      
+    </div>
+    <div class="card">
+      <h3>About Us</h3>
+      <p>Selamat datang di I'm Tree!</p>
+      <p>Kami adalah sebuah situs web yang didedikasikan untuk menjelaskan tentang pohon dan pentingnya menjaga kelestariannya. Kami percaya bahwa pohon adalah salah satu aset terpenting di planet ini, dan kami ingin memastikan bahwa orang-orang memiliki pengetahuan yang cukup tentang pohon dan manfaatnya.</p>
+
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
