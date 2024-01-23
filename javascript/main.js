@@ -53,6 +53,56 @@ document.addEventListener("click", function (e) {
   }
 });
 
+//  Logika pencocokan code
+let input_qr = document.querySelector("#txt_qr");
+let btn_cari = document.querySelector("#btn_cari");
+
+const keyNumber = (event) => {
+  if (event.key >= 0 && event.key <= 9) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+input_qr.addEventListener(
+  "keypress",
+  (event) => (event.returnValue = keyNumber(event))
+);
+
+input_qr.addEventListener("keyup", (event) => {
+  if (event.key === "Enter") {
+    cari();
+  }
+});
+
+const cari = () => {
+  const inputValue = parseInt(input_qr.value);
+
+  if (inputValue === 12345) {
+    window.open("Mangga.html", "_blank");
+  }
+  else if (inputValue === 54321) {
+    window.open("Sawo.html", "_blank");
+  }
+  else if (inputValue === 67890) {
+    window.open("Kersen.html", "_blank");
+  }
+  else {
+    alert("Harap Memasukkan Code Yang Sesuai");
+  }
+}
+
+btn_cari.addEventListener('click', ()=>{
+  if (btn_cari.innerHTML == "Cari"){
+    btn_cari.innerHTML = "Clear";
+    cari();
+  }
+  else{
+    btn_cari.innerHTML = "Cari";
+    input_qr.value = "";
+  }
+});
 // parralax
 const translate = document.querySelectorAll(".translate");
 const header = document.querySelector("header");
