@@ -11,6 +11,8 @@
 }
 
 HTML {
+    height: 100%;
+    margin: 0;
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
 }
@@ -76,6 +78,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.penjelasan {
+  height: 100%;
+  font-size: 30px;
+  line-height: 1.5;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .navbar .container {
   display: flex;
@@ -286,6 +295,14 @@ article img {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+.judulP {
+  align-items: center;
+  font-weight: 500;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
 }
 .area_qr .area_btn_qr .btn_qr{
   font-size: 17px;
