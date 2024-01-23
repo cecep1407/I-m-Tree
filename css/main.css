@@ -69,6 +69,7 @@ body {
 .navbar .button-one[aria-expanded=true] .bottom {
   rotate: -45deg;
 }
+
 .navbar .button-one {
   display: flex;
   flex-direction: column;
@@ -214,6 +215,10 @@ article .face {
   transition: 0.4s;
   font-family: "Roboto", sans-serif;
 }
+article .face2 p {
+  font-weight: bold;
+}
+
 article .face1 {
   background-color: #333;
   display: flex;
