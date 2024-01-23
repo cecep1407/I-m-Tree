@@ -304,7 +304,9 @@ article img {
   font-family: Bebas Neue;
 }
 .area_about_us>h2{
-  color: #88AB8E;
+  color: white;
+  text-decoration-line: underline;
+  text-decoration-color: #88AB8E;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
