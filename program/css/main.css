@@ -297,7 +297,7 @@ article img {
   background-color:#88AB8E;
 }
 .area_about_us{
-  height: 100vh;
+  height: 100%;
   margin: 0;
   background-color: #333;
   font-family: Bebas Neue;
@@ -496,12 +496,17 @@ article img {
   .navbar .container a span {
     font-size: 0.78em;
   }
-}
-@media (max-width: 630px) {
-  .aboutMe {
-    font-size: 70%;
+  .area_kartu_nama {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kartu_nama {
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 }
+
 @media (max-width: 540px) {
   .navbar .container a:after {
     content: "";
@@ -514,6 +519,8 @@ article img {
   }
   .navbar .img {
     left: 100%;
+  }
+  
 }
 @media (max-width: 500px) {
   header .big-tittle {
@@ -571,4 +578,12 @@ article img {
     width: 50px;
     height: 27px;
   }
-}}
+  .area_qr .area_input_qr .lbl_qr{
+    margin-left: 5%;
+    font-size: 15px;
+  }
+  .area_qr .area_btn_qr .btn_qr{
+    height: 30px;
+    font-size: 14px;
+  }
+}
