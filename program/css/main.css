@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kaushan+Script&family=Roboto:wght@300;400;700&display=swap");
 @import url(".googleapis.com/https://fontscss2?family=Roboto:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -299,8 +300,12 @@ article img {
   height: 100vh;
   margin: 0;
   background-color: #333;
+  font-family: Bebas Neue;
 }
 .area_about_us>h2{
+  color: #88AB8E;
+  font-size: 32px;
+  font-weight: bold;
   text-align: center;
   padding-top: 75px;
   margin-bottom: 150px; 
@@ -317,6 +322,11 @@ article img {
   box-shadow: 0 4px 8px rgba(254, 253, 253, 0.731);
   border-radius: 8px;
   margin-right: 20px;
+}
+.area_kartu_nama .kartu_nama img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 1440px) {
