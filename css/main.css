@@ -362,7 +362,7 @@ article img {
   }
   .navbar .container a.clicked::after {
     filter: blur(10px);
-    background: #ffc06d;
+    background: #5a3300;
   }
   .primary .read-more.shrink {
     padding: 0.15em;
