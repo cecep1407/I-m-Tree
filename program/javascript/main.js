@@ -119,12 +119,12 @@ document.querySelector("#kartu1").addEventListener("click", function() {
   showModal('Muhammad Refo Febrian', 'Halo Saya Muhammad Refo Febrian, Seorang mahasiswa yang sedang berkuliah di UNIVERSTIAS TEKNOKRAT INDONESIA. Saya berumur 20 tahun dan dalam projek ini saya berkontribusi sebagai colaborator. Bagian bagian yang saya buat adalah Fitur ala ala QR code namun tidak memakai scanner hanya pencocokan angka saja, dan juga bagian halaman about us yang mengimplementasikan animasi modal', 'M.RefoFebrian_', '083190521929');
 });
 
-document.querySelector("#kartu1").addEventListener("click", function() {
+document.querySelector("#kartu2").addEventListener("click", function() {
   showModal('Julius John Cristian', 'Halo Saya Julius John Cristian, Seorang mahasiswa yang sedang berkuliah di UNIVERSTIAS TEKNOKRAT INDONESIA. Saya berumur 23 tahun dan dalam projek ini saya berkontribusi sebagai Master. Bagian bagian yang saya buat adalah halaman tentang pohon yang terdiri dari navbar, content, dan footer.', 'cecepisme', '085609185334');
 });
 
-document.querySelector("#kartu1").addEventListener("click", function() {
-  showModal('Muhammad Refo Febrian', 'Halo Saya Haidar Ramadhan, Seorang mahasiswa yang sedang berkuliah di UNIVERSTIAS TEKNOKRAT INDONESIA. Saya berumur 20 tahun dan dalam projek ini saya berkontribusi sebagai colaborator. Bagian bagian yang saya buat adalah Home page yang mengimplementasi efek animasi paralax.', '-', '082178891674');
+document.querySelector("#kartu3").addEventListener("click", function() {
+  showModal('Haidar Ramadhan', 'Halo Saya Haidar Ramadhan, Seorang mahasiswa yang sedang berkuliah di UNIVERSTIAS TEKNOKRAT INDONESIA. Saya berumur 20 tahun dan dalam projek ini saya berkontribusi sebagai colaborator. Bagian bagian yang saya buat adalah Home page yang mengimplementasi efek animasi paralax.', 'p_haidar_ramadhan_s.kom', '082178891674');
 });
 
 window.onclick = function(event) {

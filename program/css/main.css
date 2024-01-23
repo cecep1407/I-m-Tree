@@ -316,13 +316,19 @@ article img {
   align-items: center;
 }
 .area_kartu_nama .kartu_nama{
+  display: flex;
+  flex-direction: column;
   width: 200px;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(254, 253, 253, 0.731);
   border-radius: 8px;
   margin-right: 20px;
   cursor: pointer;
+  transition: 0.5s ease;
+}
+.area_kartu_nama .kartu_nama:hover{
+  box-shadow: 0 6px 12px #5c8963;
+  scale: 1.2;
 }
 .area_kartu_nama .kartu_nama img {
   width: 100%;
@@ -342,8 +348,8 @@ article img {
 }
 .modal-content {
   font-family: Bebas Neue;
-  color: black;
-  background-color: #fff;
+  color: white;
+  background-color: #88AB8E;
   padding: 20px;
   border-radius: 8px;
   max-width: 400px;
