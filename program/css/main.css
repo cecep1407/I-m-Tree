@@ -357,9 +357,10 @@ article img {
   text-align: center;
 }
 .close {
+  font-size: larger;
   position: absolute;
   top: 10px;
-  right: 10px;
+  left: 10px;
   cursor: pointer;
 }
 .area_footer{
